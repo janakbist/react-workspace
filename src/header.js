@@ -4,7 +4,7 @@ export const Header = () => {
     return(
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">DOKO</a>
+                <a className="navbar-brand" href="#">TODO APP</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
@@ -20,9 +20,19 @@ export const Header = () => {
                     <a className="nav-link" href="#">Pricing</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Services</a>
+                    <a className="nav-link disabled" href="#" aria-disabled="true">Services</a>
+                    </li>
+                    {/* <li className="nav-item">
+                    <input type="search" placeholder='Search....' />
+                    </li> */}
+                    <li className="nav-item">
+                    <a className="nav-link" href="#" id='login'>Login</a>
+                    </li>
+                    <li className="nav-item">
+                    <a className="nav-link" href="#" id='register'>Register</a>
                     </li>
                 </ul>
+
                 </div>
             </div>
 </nav>

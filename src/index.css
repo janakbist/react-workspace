@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#footer{
+  margin-top: 600px;
+  height: 80px;
+  background-color: blue;
+}
+#login{
+  color: green;
+
+}
+#register{
+  color: green;
+}
+
